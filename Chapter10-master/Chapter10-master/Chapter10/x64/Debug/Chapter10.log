@@ -1,0 +1,9 @@
+﻿  AnimalGuessingGame.cpp
+  main.cpp
+  Generating Code...
+main.obj : error LNK2005: "public: __cdecl AnimalGuessingGame::AnimalGuessingGame(void)" (??0AnimalGuessingGame@@QEAA@XZ) already defined in AnimalGuessingGame.obj
+main.obj : error LNK2005: "public: __cdecl TreeNode::TreeNode(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (??0TreeNode@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) already defined in AnimalGuessingGame.obj
+main.obj : error LNK2005: "public: __cdecl AnimalGuessingGame::~AnimalGuessingGame(void)" (??1AnimalGuessingGame@@QEAA@XZ) already defined in AnimalGuessingGame.obj
+main.obj : error LNK2005: "public: void __cdecl AnimalGuessingGame::playGame(void)" (?playGame@AnimalGuessingGame@@QEAAXXZ) already defined in AnimalGuessingGame.obj
+main.obj : error LNK2005: "private: void __cdecl AnimalGuessingGame::playRound(class TreeNode * &)" (?playRound@AnimalGuessingGame@@AEAAXAEAPEAVTreeNode@@@Z) already defined in AnimalGuessingGame.obj
+C:\Users\thanh\Downloads\Chapter10-master\Chapter10-master\x64\Debug\Chapter10.exe : fatal error LNK1169: one or more multiply defined symbols found
