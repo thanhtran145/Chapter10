@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AnimalGuessing.cpp" />
     <ClCompile Include="Binary_Tree_Node.cpp" />
     <ClCompile Include="BTree.cpp" />
     <ClCompile Include="main.cpp" />

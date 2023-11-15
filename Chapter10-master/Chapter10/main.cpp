@@ -2,13 +2,13 @@
 //Date: 11/15/2023
 //subscription: CMPR131
 
-//Credit: Christian Hernandez,Bryan Alarcon,Thanh Tran, Joe Bryant,Erik Santana, Saul Merino
+//Credit: Christian Hernandez, Bryan Alarcon, Thanh Tran, Joe Bryant, Erik Santana, Saul Merino
 
 #include<iostream>
 #include"input.h"
 #include"BTree.cpp"
 #include"Binary_Tree_Node.cpp"
-#include"AnimalGuessing.h"
+#include"AnimalGuessing.cpp"
 using namespace std;
 
 //prototype
@@ -81,18 +81,18 @@ void challenge1() {
 	Binary_Tree_Node<string>* leaf2 = new Binary_Tree_Node<string>;
 	leaf1->setData("leaf #1");
 	leaf2->setData("leaf #2");
-	//now set them to branch1 (branch1 is our ancestor (parent) basically with childrens which are the leaf1 and leaf2)
+	//now set them to branch1 (branch1 is our ancestor (parent) basically with children's which are the leaf1 and leaf2)
 	branch1->setLeft(leaf1);
 	branch1->setRight(leaf2);
 	cout << "\n\n";
 	print_tree<string>("\t\t", tree, false, true, true);
 	cout << "\n\t\tRight branch of (branch #2) grows two leaves: leaf #3 and leaf #4.";
-	//now same thing but now branch2 will have another subtree with 2 leaves which are the childrens 
+	//now same thing but now branch2 will have another subtree with 2 leaves which are the children's 
 	Binary_Tree_Node<string>* leaf3 = new Binary_Tree_Node<string>;
 	Binary_Tree_Node<string>* leaf4 = new Binary_Tree_Node<string>;
 	leaf3->setData("leaf #3");
 	leaf4->setData("leaf #4");
-	//now set left and right to branch2, now branch2 who is the parent will have childrens that are leaf3 and leaf4
+	//now set left and right to branch2, now branch2 who is the parent will have children's that are leaf3 and leaf4
 	branch2->setLeft(leaf3);
 	branch2->setRight(leaf4);
 	cout << "\n\n";
@@ -109,7 +109,7 @@ void challenge1() {
 	Binary_Tree_Node<string>* fruit2 = new Binary_Tree_Node<string>;
 	fruit1->setData("orange");
 	fruit2->setData("coconut");
-	//now going to the parent leaf#3 to have childrens which are orange and coconut (they are siblings now) 
+	//now going to the parent leaf#3 to have children's which are orange and coconut (they are siblings now) 
 	leaf3->setLeft(fruit1);
 	leaf3->setRight(fruit2);
 	cout << "\n\n";
